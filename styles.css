@@ -110,7 +110,7 @@ html, body {
 /* Sidebar styles */
 .sidebar {
     position: fixed;
-    top: 2.4rem;
+    top: 0;
     right: -250px; /* Initially hidden */
     width: 250px;
     height: 100%;
@@ -352,9 +352,9 @@ main {
     .main-submenu {
         align-items: center; /* Aligns icons and search box vertically */
     }
-    .sidebar{
+    /* .sidebar{
         top: 2rem;
-    }
+    } */
     .hover-text{
         font-size: 11px;
     }
@@ -370,18 +370,18 @@ main {
     .title h1{
         font-size: 36px;
     }
-    .sidebar{
+    /* .sidebar{
         top: 1.8rem;
-    }
+    } */
 }
 
 @media (max-width: 375px) {
     .title h1{
         font-size: 39px;
     }
-    .sidebar{
+    /* .sidebar{
         top: 1.7rem;
-    }
+    } */
     .main-submenu {
         gap: 0px;
     }
