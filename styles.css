@@ -100,7 +100,7 @@ html, body {
 .title h1{
     font-weight: 100;
     font-family: 'Times New Roman', sans-serif;
-    font-size: 4rem;
+    font-size: 4.5vw;
     margin: 0;
 }
 
@@ -286,17 +286,20 @@ main {
 
 /* Hover Text Styling */
 .hover-text {
+    font-size: 1vw;
+    line-height: 1.5;
+    /* max-width: 100%;  */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.8);
     color: white;
-    font-size: 18px;
-    font-weight: 600;
+    /* font-size: 18px; */
+    font-weight: 500;
     opacity: 0;
     transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-    width: 90%;
+    width: 95%;
     /* text-align: center; */
     justify-content: center;
     word-wrap: break-word;
@@ -309,9 +312,9 @@ main {
 }
 
 @media (max-width: 1300px){
-    .hover-text{
+    /* .hover-text{
         font-size: 13px;
-    }
+    } */
 }
 @media (max-width: 950px){
     .hover-text{
@@ -354,6 +357,9 @@ main {
     }
     .hover-text{
         font-size: 11px;
+    }
+    .title h1{
+        text-align: center;
     }
 }
 
