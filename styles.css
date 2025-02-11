@@ -241,9 +241,13 @@ main {
     padding: 10px 0px;
 }
 
-.card{
+.card {
     width: 100%;
     border-radius: 0;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px #FCB166;
 }
 .lastweek{
     display: flex;
@@ -260,14 +264,6 @@ main {
     color: #8c8c8c;
     display: flex;
     gap: 25px;
-}
-
-
-.card {
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px #FCB166;
 }
 
 .card-img-container {
